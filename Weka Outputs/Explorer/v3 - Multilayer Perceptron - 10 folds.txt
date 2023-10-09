@@ -1,0 +1,140 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     Air Quality Data in India (2015 - 2020) - v3
+Instances:    29531
+Attributes:   13
+              PM2.5
+              PM10
+              NO
+              NO2
+              NOx
+              NH3
+              CO
+              SO2
+              O3
+              Benzene
+              Toluene
+              Xylene
+              AQI
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    -0.5982554437447591
+    Node 1    -0.4896070656191489
+    Node 2    0.87804263811241
+    Node 3    0.8584770963568102
+    Node 4    -2.147469597318064
+    Node 5    2.421856095004315
+    Node 6    0.30801826775528685
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -13.59654552294899
+    Attrib PM2.5    -5.6818684482926205
+    Attrib PM10    -1.3792601885852402
+    Attrib NO    -0.08315478596795406
+    Attrib NO2    0.2681276553382507
+    Attrib NOx    -0.34025260585702927
+    Attrib NH3    -0.05380719166745867
+    Attrib CO    -9.095992931723847
+    Attrib SO2    0.035315726435200874
+    Attrib O3    -0.3596619367355885
+    Attrib Benzene    0.35594734622135277
+    Attrib Toluene    0.07914675227018311
+    Attrib Xylene    0.649277588306886
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    3.2298932833789973
+    Attrib PM2.5    1.6454547170364664
+    Attrib PM10    -2.7999166749027955
+    Attrib NO    2.0194010305512036
+    Attrib NO2    0.7304906802727753
+    Attrib NOx    -1.528939221264836
+    Attrib NH3    -0.8066525875381636
+    Attrib CO    6.522725927243011
+    Attrib SO2    0.5400231500221592
+    Attrib O3    1.9052056132099255
+    Attrib Benzene    0.15759398249902906
+    Attrib Toluene    -0.4696629902653124
+    Attrib Xylene    -0.20996036514146266
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -1.2220736105538885
+    Attrib PM2.5    1.1103191016202971
+    Attrib PM10    -2.0619478824640023
+    Attrib NO    -1.8097387709417156
+    Attrib NO2    1.7793226721117872
+    Attrib NOx    0.7546669582985195
+    Attrib NH3    0.16200489221660838
+    Attrib CO    1.2843095505611608
+    Attrib SO2    1.016568625841975
+    Attrib O3    -2.0919526879856942
+    Attrib Benzene    0.5314107112254579
+    Attrib Toluene    0.5093261357033609
+    Attrib Xylene    1.2352335120373472
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -2.806690091748946
+    Attrib PM2.5    -3.599875304693956
+    Attrib PM10    1.192618565164816
+    Attrib NO    2.013445968455786
+    Attrib NO2    3.9261997118511482
+    Attrib NOx    0.3536359287637682
+    Attrib NH3    1.8712437857251922
+    Attrib CO    0.7024094149902764
+    Attrib SO2    2.9657561496194798
+    Attrib O3    -3.640223757080558
+    Attrib Benzene    1.3286021293380104
+    Attrib Toluene    0.12067183593009838
+    Attrib Xylene    0.7727027190085365
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.1545018837573049
+    Attrib PM2.5    2.9057815358884214
+    Attrib PM10    0.49121099119158435
+    Attrib NO    -1.0731123075834292
+    Attrib NO2    3.0626253934807006
+    Attrib NOx    3.145573861976855
+    Attrib NH3    0.10239870156569805
+    Attrib CO    2.7285429818941616
+    Attrib SO2    1.5434601783011581
+    Attrib O3    1.0520018135716729
+    Attrib Benzene    1.1687675099835717
+    Attrib Toluene    0.1064557990969576
+    Attrib Xylene    -0.6280648253523851
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.13028691728331573
+    Attrib PM2.5    -0.9890819421611076
+    Attrib PM10    5.058851936712428
+    Attrib NO    -0.36244102384929805
+    Attrib NO2    0.530499395433608
+    Attrib NOx    -0.9273461093613259
+    Attrib NH3    -1.0740611295856926
+    Attrib CO    0.9273861853663097
+    Attrib SO2    1.1234666785207388
+    Attrib O3    -0.06675559958004325
+    Attrib Benzene    0.9400467255945888
+    Attrib Toluene    0.3896810222387887
+    Attrib Xylene    0.5888724976507734
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 12.24 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9147
+Mean absolute error                     34.3523
+Root mean squared error                 57.3359
+Relative absolute error                 35.7035 %
+Root relative squared error             40.7485 %
+Total Number of Instances            24850     
+Ignored Class Unknown Instances               4681     
+

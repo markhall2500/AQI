@@ -1,0 +1,42 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     Air Quality Data in India (2015 - 2020) - v4.2
+Instances:    21092
+Attributes:   13
+              PM2.5
+              PM10
+              NO
+              NO2
+              NOx
+              NH3
+              CO
+              SO2
+              O3
+              Benzene
+              Toluene
+              Xylene
+              AQI
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 5.53 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9256
+Mean absolute error                     15.3357
+Root mean squared error                 25.9518
+Relative absolute error                 30.2982 %
+Root relative squared error             37.8784 %
+Total Number of Instances            16990     
+Ignored Class Unknown Instances               4102     
+

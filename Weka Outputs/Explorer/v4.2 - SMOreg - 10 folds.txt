@@ -1,0 +1,57 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMOreg -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007"
+Relation:     Air Quality Data in India (2015 - 2020) - v4.2
+Instances:    21092
+Attributes:   13
+              PM2.5
+              PM10
+              NO
+              NO2
+              NOx
+              NH3
+              CO
+              SO2
+              O3
+              Benzene
+              Toluene
+              Xylene
+              AQI
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ +       0.4231 * (normalized) PM2.5
+ +       0.0322 * (normalized) PM10
+ +       0.0353 * (normalized) NO
+ -       0.0026 * (normalized) NO2
+ -       0.001  * (normalized) NOx
+ +       0.0062 * (normalized) NH3
+ +       0.0988 * (normalized) CO
+ +       0.0045 * (normalized) SO2
+ +       0.0458 * (normalized) O3
+ -       0.0038 * (normalized) Benzene
+ +       0.0107 * (normalized) Toluene
+ -       0.0181 * (normalized) Xylene
+ -       0.0067
+
+
+
+Number of kernel evaluations: -1408752044
+
+Time taken to build model: 299.15 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.8903
+Mean absolute error                     20.8725
+Root mean squared error                 31.3411
+Relative absolute error                 41.2372 %
+Root relative squared error             45.7445 %
+Total Number of Instances            16990     
+Ignored Class Unknown Instances               4102     
+

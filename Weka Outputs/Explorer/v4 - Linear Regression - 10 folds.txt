@@ -1,0 +1,54 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     Air Quality Data in India (2015 - 2020) - v4
+Instances:    21092
+Attributes:   13
+              PM2.5
+              PM10
+              NO
+              NO2
+              NOx
+              NH3
+              CO
+              SO2
+              O3
+              Benzene
+              Toluene
+              Xylene
+              AQI
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+AQI =
+
+      1.5249 * PM2.5 +
+      0.1652 * PM10 +
+      0.3286 * NO +
+     -0.0669 * NO2 +
+      0.0467 * NOx +
+      0.1224 * NH3 +
+     11.4768 * CO +
+      0.269  * O3 +
+     -0.7404 * Benzene +
+      0.2198 * Toluene +
+     -2.3683 * Xylene +
+      8.2389
+
+Time taken to build model: 0.04 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.8913
+Mean absolute error                     21.1235
+Root mean squared error                 31.0601
+Relative absolute error                 41.7331 %
+Root relative squared error             45.3344 %
+Total Number of Instances            16990     
+Ignored Class Unknown Instances               4102     
+

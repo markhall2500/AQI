@@ -1,0 +1,47 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CorrelationAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     Air Quality Data in India (2015 - 2020) - v4
+Instances:    21092
+Attributes:   13
+              PM2.5
+              PM10
+              NO
+              NO2
+              NOx
+              NH3
+              CO
+              SO2
+              O3
+              Benzene
+              Toluene
+              Xylene
+              AQI
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 13 AQI):
+	Correlation Ranking Filter
+Ranked attributes:
+ 0.8729   1 PM2.5
+ 0.6347   2 PM10
+ 0.349    4 NO2
+ 0.3437   5 NOx
+ 0.3309   7 CO
+ 0.3012   3 NO
+ 0.2902   6 NH3
+ 0.2573   9 O3
+ 0.1534   8 SO2
+ 0.0951  11 Toluene
+ 0.0441  10 Benzene
+ 0.0244  12 Xylene
+
+Selected attributes: 1,2,4,5,7,3,6,9,8,11,10,12 : 12
+
